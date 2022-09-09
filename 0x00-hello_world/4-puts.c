@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - betty
+* main - Betty
 *  
 * Return: 0  after printing the function
 */
