@@ -10,16 +10,16 @@
 
 int main(void)
 {
-	int size_1 = 1;
-        int size_2 = 4;
-        int size_3 = 8;
-	int size_4 = 8;
-	int size_5 = 4;
+	int a;
+	long int b;
+	long long int c;
+	char d;
+	float f;
 
-	printf("size of a char: %d bytes(s)\n", size_1);
-	printf("size of an int: %d bytes(s)\n", size_2);
-	printf("size of a lonf int: %d bytes(s)\n", size_3);
-	printf("size of a long long int: %d bytes(s)\n", size_4);
-	printf("size of a float: %d byte(s)\n", size_5);
-        return (0);
+	printf("size of a char: %lu bytes(s)\n", (unsigned long)sizeof(d));
+	printf("size of an int: %lu bytes(s)\n", (unsigned long)sizeof(a));
+	printf("size of a long int: %lu bytes(s)\n", (unsigned long)sizeof(b));
+	printf("size of a long long int: %lu bytes(s)\n", (unsigned long)sizeof(c));
+	printf("size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
+	return (0);
 }
